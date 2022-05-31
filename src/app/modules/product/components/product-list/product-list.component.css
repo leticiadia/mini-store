@@ -1,0 +1,19 @@
+.products {
+    padding-bottom: 32px;
+}
+
+.product-content {
+    padding-bottom: 8px;
+}
+
+.product-content .title p {
+    font-size: 24px;
+    color: #1976d6;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.product-content .description p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+}

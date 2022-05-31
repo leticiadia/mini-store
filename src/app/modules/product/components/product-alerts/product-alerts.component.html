@@ -1,0 +1,5 @@
+<div class="message-alert">
+    <div *ngIf="product && product.price > 700">
+        <button type="button" mat-raised-button color="accent" (click)="notify.emit()">Notify Me</button>
+    </div>
+</div>
